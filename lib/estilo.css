@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8f7e3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(rgb(243, 190, 16), rgb(243, 167, 105));
+    border-bottom: rgb(179, 117, 2) solid 2px;
+    color: black;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.enlace{
+    border: #686666 solid 1px;
+    padding: 8px;
+}
+
+.cubo{
+    background-color: rgb(243, 190, 16);
+    flex: 1 1 auto;
+    border: #686666 solid 1px;
+    font-size: 1.4em;
+    padding: 10px;
+    text-align: center;
+}
+
+.libro{
+    background-color: #ffffff;
+    border: #a8a6a6 solid 1px;
+    box-shadow: 16px 10px 10px #9a9a9a;
+    font-size: 1.4em;
+    height: 920px;
+    margin: 25px auto;
+    padding: 50px;
+    width: 700px;
+}
+
+.piepagina{
+    font-size: .6em;
+    text-align: right;
+}
+
+.muestra{
+    font-size: 0.8em;
+}
+
+h2{
+    font-size: 1.8em;
+}
+
+.hoja{
+    margin: 2px;
+    padding-top: 10px;
+}
+
+.regla{
+    border-top: #262626 solid 1px;
+
+}
+
+.flex{
+    flex: 1 1 auto;
+}
+
+.logo {
+  height: 50px;
+  padding: 4px;
+}
+
+.rotulo{
+    margin: 10px 40px;
+}
